@@ -25,8 +25,6 @@ PRODUCT_PACKAGES += \
     libmemalloc \
     liboverlay \
     libqdutils \
-    libtilerenderer \
-    libI420colorconvert
 
 # Camera wrapper
 PRODUCT_PACKAGES += \
