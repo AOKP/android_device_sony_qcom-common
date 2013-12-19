@@ -1,4 +1,4 @@
-ifeq ($(USE_DEVICE_SPECIFIC_LIBLIGHT),true)
+ifeq ($(TARGET_PROVIDES_LIBLIGHT),true)
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
