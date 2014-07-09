@@ -37,7 +37,7 @@ TARGET_USES_C2D_COMPOSITION := true
 
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
-COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
+TARGET_PROVIDES_CAMERA_HAL := true
 
 ifeq ($(BOARD_EGL_CFG),)
 BOARD_EGL_CFG := device/sony/qcom-common/rootdir/system/lib/egl/egl.cfg
